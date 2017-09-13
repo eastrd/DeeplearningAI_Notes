@@ -20,10 +20,25 @@ English -> Chinese : (Machine translation) : RNN
 <br> <br>
 Image, Radar info -> Position of other cars : (Autonomous Driving) : Custom Hybrid <br> <br> </b>
 - Different Neural Network models are used in different applications.
+
 #### Structured Data:
 - Databases of Data, each of the features has a very well defined meaning
+
 #### Unstructured Data:
 - E.g. (sound waves in) Audio / (pixels in) Image / Text
 - People are good at interpreting unstructured data.
 
 # Why is Deep Learning taking off?
+#### Comparison:
+- Traditional learning algorithm has a performance v. Data Amount(m) graph of the shape of Logarithm. (Rapidly approaches to a flat gradient)
+- We are having more and more data everyday.
+- Neural network has a performance v. Data Amount(m) graph of a much steeper gradient.
+- However, small amount of data doesn't perform well in Neural Network. This will depend more on skills and experience.
+
+#### Main Drivers:
+- Data
+- Computation: Better CPU and GPU
+- Algorithms: Make NN run much faster, e.g. <b> Switching from sigmoid function to a relu function, which avoid the slow learning problem in sigmoid function when the gradient approaches zero </b> .
+- Training a neural network is <b> iterative </b> :
+<br> <i> Idea -> Code -> Experiment -> Idea -> ... </i>
+-
