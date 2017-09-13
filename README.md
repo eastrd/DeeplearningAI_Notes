@@ -7,7 +7,11 @@
 
 <br>
 
-##### I will try my best to keep this updated everyday and I hope this can save you some time and effort for learning this course.
+##### I will try my best to keep this updated everyday.
+
+<br>
+
+##### I hope this can save you some time and effort for learning this course.
 
 <br>
 
