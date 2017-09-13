@@ -41,4 +41,3 @@ Image, Radar info -> Position of other cars : (Autonomous Driving) : Custom Hybr
 - Algorithms: Make NN run much faster, e.g. <b> Switching from sigmoid function to a relu function, which avoid the slow learning problem in sigmoid function when the gradient approaches zero </b> .
 - Training a neural network is <b> iterative </b> :
 <br> <i> Idea -> Code -> Experiment -> Idea -> ... </i>
--

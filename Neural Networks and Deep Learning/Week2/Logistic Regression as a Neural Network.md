@@ -8,10 +8,10 @@
 - m training examples: (x1, y1), (x2, y2), ..., (xm, ym).
 - mtraining is the # of training set, and mtest is the # of testing set.
 #### A more compact notation:
-- X = [x1, x2, x3, ..., xm]
+- <b> X = [x1, x2, x3, ..., xm] </b>
 - X has m columns (m = training examples), and nx rows.
 - Sometimes you see the Xs the other way around, however our convention will make the implementation much easier.
 - In Python, <b> X.shape </b> is for finding the shape of the matrix, it will be <b> (nx, m) </b> .
-- Y = [y1, y2, y3, ..., ym]
+- <b> Y = [y1, y2, y3, ..., ym] </b>
 - Y is an element of <b> R^(1 * m) </b> .
 - Similarly, <b> Y.shape = (1, m) </b> .
